@@ -3,6 +3,8 @@
  *******************************************************************************/
 package main.workshopgitproject.classes;
 
+import java.util.HashSet;
+
 // Start of user code (user defined imports)
 
 // End of user code
@@ -36,7 +38,7 @@ public class Invoice {
 	/**
 	 * Description of the property totalAmount.
 	 */
-	private EDouble totalAmount = null;
+	private double totalAmount = 0;
 
 	/**
 	 * Description of the property datePurchase.
@@ -111,7 +113,7 @@ public class Invoice {
 	 * Returns totalAmount.
 	 * @return totalAmount 
 	 */
-	public EDouble getTotalAmount() {
+	public double getTotalAmount() {
 		return this.totalAmount;
 	}
 
@@ -119,7 +121,7 @@ public class Invoice {
 	 * Sets a value to attribute totalAmount. 
 	 * @param newTotalAmount 
 	 */
-	public void setTotalAmount(EDouble newTotalAmount) {
+	public void setTotalAmount(double newTotalAmount) {
 		this.totalAmount = newTotalAmount;
 	}
 

@@ -3,6 +3,8 @@
  *******************************************************************************/
 package main.workshopgitproject.classes;
 
+import java.util.HashSet;
+
 // Start of user code (user defined imports)
 
 // End of user code
@@ -21,7 +23,7 @@ public class Product {
 	/**
 	 * Description of the property price.
 	 */
-	private EDouble price = null;
+	private double price = 0;
 
 	/**
 	 * Description of the property suplierName.
@@ -76,7 +78,7 @@ public class Product {
 	 * Returns price.
 	 * @return price 
 	 */
-	public EDouble getPrice() {
+	public double getPrice() {
 		return this.price;
 	}
 
@@ -84,7 +86,7 @@ public class Product {
 	 * Sets a value to attribute price. 
 	 * @param newPrice 
 	 */
-	public void setPrice(EDouble newPrice) {
+	public void setPrice(double newPrice) {
 		this.price = newPrice;
 	}
 
